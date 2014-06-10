@@ -60,8 +60,8 @@ author:
 #评论信息
 disqus:
   config: true
-  id: piznblog
+  id: haicg
 
 duoshuo:
   config: false
-  id: zhanxin
+  id: haicg
