@@ -39,7 +39,7 @@ The text API is deprecated since 2.6.35, but available for convenience.
 	字符设备上是可以使用的。这也是一个ABI接口。文本输出API在2.6.35版本以后就不建议使用了，
 	但是为了方便，依然可以使用。
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 * How to use usbmon to collect raw text traces
 
@@ -53,13 +53,13 @@ are finalized. Second, humans can read it in case tools are not available.
 和socket的封包不同，usbmod提供了一个将原始数据以文本格式输出的接口。这样做有两个好处。首先它
 可以作为一个转换工具，将复杂的格式转换成简单的文本格式。其次可以不借助任何工具就可以阅读。
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 To collect a raw text trace, execute following steps.
 译文：
 为了抓取usb的原始数据，你需要执行下面几个步骤
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 1. Prepare
 
@@ -97,7 +97,7 @@ This allows to filter away annoying devices that talk continuously.
 这样就可以过滤掉那些令人烦恼不断通信的设备的干扰了。
 </pre>
 
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 2. Find which bus connects to the desired device
 
@@ -135,7 +135,7 @@ BUS=03 表示这个是总线3.
 样例：
 Bus 003 Device 002: ID 0557:2004 ATEN UC100KM V2.00
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 3. Start 'cat'
 
@@ -155,7 +155,7 @@ to be quite long.
 这个进程将一直在读取数据，知道你将这个进程kill掉。同时，这个数据可以被重定向到你想输出
 的位置（某个文件）。因为数据可能很多，推荐你的将输出重定向到一个文件。
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 4. Perform the desired operation on the USB bus
 
@@ -166,7 +166,7 @@ control a webcam, etc.
 现在你可以做你要做的事情了，创建一个USB通信。
 比如插入一个USB密匙，复制一个文件或者控制一个摄像头。
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 5. Kill cat
 
@@ -182,7 +182,7 @@ favourite editor.
 此时输出文件中已经保存了抓取到的内容，如本例中/tmp/1.mon.out.
 
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 原文：
 * Raw text data format
 
@@ -364,8 +364,8 @@ dd65f0e8 4128379752 S Bo:1:005:2 -115 31 = 55534243 ad000000 00800000
 dd65f0e8 4128379808 C Bo:1:005:2 0 31 >
 
 </pre>
-<pre style="word-wrap: break-word; white-space: pre-wrap;>
-
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+原文：
 * Raw binary format and API
 
 The overall architecture of the API is about the same as the one above,
