@@ -21,7 +21,7 @@ nav:
   - text: 项目
     url: /works.html
   - text: 联系我
-    url: http://lihaicg.dnsd.me/contact.html
+    url: /contact.html
 
 #theme config
 themes: /themes/violet
