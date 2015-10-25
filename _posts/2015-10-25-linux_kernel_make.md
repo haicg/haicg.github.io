@@ -9,6 +9,7 @@ keywords: kernel,compile
 根据参考链接[1]的提示，可能是Makefile中缺少ldl链接库。<br/>
 用Vim打开对应的Makefile， vim scripts/kconfig/Makefile <br/>
 <pre>
+
 HOSTLOADLIBES_qconf	= -L$(QTLIBPATH) -Wl,-rpath,$(QTLIBPATH) -l$(QTLIB) -ldl -lm
 HOSTCXXFLAGS_qconf.o	= -I$(QTDIR)/include -D LKC_DIRECT_LINK
 
