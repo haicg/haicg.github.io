@@ -19,7 +19,7 @@ HOSTCFLAGS_gconf.o	= `pkg-config gtk+-2.0 gmodule-2.0 libglade-2.0 --cflags` \
 
 </pre> <br/>
 因为使用的是gconf ，那么对应的依赖库是HOSTLOADLIBES_gconf	= `pkg-config gtk+-2.0 gmodule-2.0 libglade-2.0 --libs`,明显可以看出这个依赖库中没有添加-ldl,这个问题也就解决了。<br/>
-下面就继续了解一下ldl这个库的作用，根据参考链接[2],[3],可知这个库主要用于显示的调用动态链接库，使用显式调用的好处就是不需要在编译阶段去指定动态链接库，可以直接在运行时确定。<br/>
+下面就继续了解一下ldl这个库的作用，根据参考链接[2],[3],可知这个库主要用于显式的调用动态链接库，使用显式调用的好处就是不需要在编译阶段去指定动态链接库，可以直接在运行时确定。<br/>
 
 [1]: http://askubuntu.com/questions/527665/undefined-reference-to-symbol-expglibc-2-2-5        "undefined reference to symbol 'exp@@GLIBC_2.2.5'"
 [2]: http://linux.die.net/man/3/dlsym "dlsym(3) - Linux man page"
