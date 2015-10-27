@@ -8,9 +8,9 @@ keywords: Ubuntu
 测试环境使用的是Ubuntu14.04，直接使用<pre>sudo apt-get install firewalld</pre>
 
 ### 配置的途径
-* 直接使用界面配置，在命令行下输入<pre>firewall-config</pre>,然后就会出现一个配置的对话框，对话框的配置，可以参看"4.5. USING FIREWALLS"[1]。
-* 使用命令行配置 <pre>firewall-cmd</pre>,这个命令常用的一些参数都可以在文献[1]中找到，也有一些中文文献，如"FirewallD/zh-cn"[2]。下面有一个样例来介绍几个最基本的用法。
-*直接修改相对应的配置文件，来实现相关的过滤规则。
+1. 直接使用界面配置，在命令行下输入<pre>firewall-config</pre>,然后就会出现一个配置的对话框，对话框的配置，可以参看"4.5. USING FIREWALLS"[1]。
+2. 使用命令行配置 <pre>firewall-cmd</pre>,这个命令常用的一些参数都可以在文献[1]中找到，也有一些中文文献，如"FirewallD/zh-cn"[2]。下面有一个样例来介绍几个最基本的用法。
+3. 直接修改相对应的配置文件，来实现相关的过滤规则。
 
 ### 样例
 目标：指定的IP访问本机的SSH服务，其他主机不可以访问本机的任何资源。
