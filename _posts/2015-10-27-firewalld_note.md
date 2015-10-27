@@ -35,7 +35,7 @@ keywords: Ubuntu
   </rule>
 </zone>
 ```
-
+第三步:将修改生效，firewall-cmd --complete-reload 。
 ###注意
 1. firewall和ufw或者iptable不能同时运行，同时运行不能起到过滤的效果。<br/>
 2. 防火墙的过滤规则是自上而下的，如果上面满足这个条件，则处理，没有找到对应的规则，继续向下比对规则。<br/>
