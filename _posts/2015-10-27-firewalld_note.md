@@ -13,12 +13,11 @@ keywords: Ubuntu
 3. 直接修改相对应的配置文件，来实现相关的过滤规则。
 
 ### 样例
-目标：指定的IP访问本机的SSH服务，其他主机不可以访问本机的任何资源。
-第一步：将默认zone 设定成dmz,<pre>firewall-cmd --set-default-zone=dmz</pre>,这一步可有可无，但是决定了下面你要对哪一个zone做出修改。
+目标：指定的IP访问本机的SSH服务，其他主机不可以访问本机的任何资源。<br/>
+第一步：将默认zone 设定成dmz,<pre>firewall-cmd --set-default-zone=dmz</pre> 这一步可有可无，但是决定了下面你要对哪一个zone做出修改。</br>
 第二步:修改dmz下面的规则，这边通过修改/etc/firewall/zones/下面对应的文件来实现，如果没有则创建。此处需要创建一个dmz.xml,具体内容如下：
 <br/>
-<pre>
-
+‘’‘xml
 <?xml version="1.0" encoding="utf-8"?>
 <zone>
   <short>DMZ</short>
@@ -35,12 +34,11 @@ keywords: Ubuntu
     <drop/>
   </rule>
 </zone>
-
-</pre>
+’‘’
 
 ###注意
-1. firewall和ufw或者iptable不能同时运行，同时运行不能起到过滤的效果。
-2. 防火墙的过滤规则是自上而下的，如果上面满足这个条件，则处理，没有找到对应的规则，继续向下比对规则。
+1. firewall和ufw或者iptable不能同时运行，同时运行不能起到过滤的效果。<br/>
+2. 防火墙的过滤规则是自上而下的，如果上面满足这个条件，则处理，没有找到对应的规则，继续向下比对规则。<br/>
 
 [1]: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/sec-Using_Firewalls.html  "Redhat 官方手册 4.5. USING FIREWALLS"
 [2]: https://fedoraproject.org/wiki/FirewallD/zh-cn "FirewallD/zh-cn"
