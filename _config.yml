@@ -2,6 +2,7 @@ markdown: rdiscount
 hlighter: true
 plugins: ./plugins_dir
 paginate: 8
+highlighter: pygments
 
 safe: false
 

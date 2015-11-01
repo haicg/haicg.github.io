@@ -17,7 +17,7 @@ keywords: Ubuntu
 第一步：将默认zone 设定成dmz,<pre>firewall-cmd --set-default-zone=dmz</pre> 这一步可有可无，但是决定了下面你要对哪一个zone做出修改。</br>
 第二步:修改dmz下面的规则，这边通过修改/etc/firewall/zones/下面对应的文件来实现，如果没有则创建。此处需要创建一个dmz.xml,具体内容如下：
 <br/>
-```xml
+{% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
 <zone>
   <short>DMZ</short>
@@ -34,7 +34,7 @@ keywords: Ubuntu
     <drop/>
   </rule>
 </zone>
-```
+{% endhighlight %}
 第三步:将修改生效，firewall-cmd --complete-reload 。
 ###注意
 1. firewall和ufw或者iptable不能同时运行，同时运行不能起到过滤的效果。<br/>
