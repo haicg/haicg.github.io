@@ -1,6 +1,6 @@
 markdown: rdiscount
 hlighter: true
-plugins: ./_plugins
+plugins: ./plugins_dir
 paginate: 8
 
 safe: false
