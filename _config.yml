@@ -37,25 +37,25 @@ headimg:
 #关注我
 follow:
   - class: fa-google-plus
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-facebook
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-github
     url: http://github.com/haicg
   - class: fa-weibo
     url: http://weibo.com/lihaicg/
   - class: fa-renren
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-pinterest
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-twitter
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-rss
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
 
 #作者信息
 author:
-  link: http://lihaicg.dnsd.me/contact.html
+  link: https://haicg.github.io/contact.html
   img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
 
 #评论信息
