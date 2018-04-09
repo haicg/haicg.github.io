@@ -1,6 +1,14 @@
-markdown: rdiscount
+# Where things are
+plugins_dir:     _plugins
+layouts_dir:     _layouts
+includes_dir:    _includes
+
+markdown: kramdown
 hlighter: true
-plugins: ./plugins_dir
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
 paginate: 8
 highlighter: pygments
 
