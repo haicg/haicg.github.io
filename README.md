@@ -1,7 +1,11 @@
-## 利用gitbub搭建的个人主页
-这个是我在github上搭建[个人主页](http://haicg.github.io/)所使用的源码和文章。
+### haicg.github.io
 
-如果你想知道这里有什么，不妨来[我的主页](http://haicg.github.io/)留个脚印
+利用gitbub搭建的个人主页
+=====================
+
+这个是我在github上搭建[个人主页](https://haicg.github.io/)所使用的源码和文章。
+
+如果你想知道这里有什么，不妨来[我的主页](https://haicg.github.io/)留个脚印
 
 版权声明：
 
