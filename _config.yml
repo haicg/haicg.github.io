@@ -9,6 +9,8 @@ plugins:
   - jekyll-gist
   - jekyll-coffeescript
   - jekyll-assets
+  - jekyll-paginate
+  - pygments.rb
 paginate: 8
 highlighter: pygments
 
