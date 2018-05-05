@@ -17,8 +17,8 @@ highlighter: pygments
 safe: false
 
 #站点基础配置
-title: Lihaicg 点滴生活
-subTitle: 点滴记录
+title: Lihaicg 的小窝
+subTitle: 斯是陋室，惟吾德馨。 无丝竹之乱耳，无案牍之劳形。
 description: 本博客基于 Jekyll 搭建， 主题是由PIZn设计。
 #url: /haicg.github.io
 feed: /atom.xml
