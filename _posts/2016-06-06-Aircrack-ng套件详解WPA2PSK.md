@@ -263,3 +263,9 @@ pyrit eval  # 查看结果
 ```
 pyrit -r test.cap --all-handshakes attack_db
 ```
+
+[无线破解Aircrack-ng套件详解－－airmon-ng与airodump-ng](https://blog.csdn.net/QS_0928/article/details/77387335)
+
+[Cracking WPA2-PSK Passwords Using Aircrack-Ng](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-psk-passwords-using-aircrack-ng-0148366/)
+
+[Pyrit 项目主页](https://github.com/JPaulMora/Pyrit/wiki）
