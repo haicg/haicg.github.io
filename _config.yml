@@ -1,14 +1,24 @@
-markdown: rdiscount
+# Where things are
+plugins_dir:     _plugins
+layouts_dir:     _layouts
+includes_dir:    _includes
+
+markdown: kramdown
 hlighter: true
-plugins: ./plugins_dir
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - jekyll-paginate
+  - pygments.rb
 paginate: 8
 highlighter: pygments
 
 safe: false
 
 #站点基础配置
-title: Lihaicg 点滴生活
-subTitle: 点滴记录
+title: Lihaicg's Technical Cafe
+subTitle: 斯是陋室，惟吾德馨。 无丝竹之乱耳，无案牍之劳形。
 description: 本博客基于 Jekyll 搭建， 主题是由PIZn设计。
 #url: /haicg.github.io
 feed: /atom.xml
@@ -37,25 +47,25 @@ headimg:
 #关注我
 follow:
   - class: fa-google-plus
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-facebook
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-github
     url: http://github.com/haicg
   - class: fa-weibo
     url: http://weibo.com/lihaicg/
   - class: fa-renren
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-pinterest
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-twitter
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
   - class: fa-rss
-    url: http://lihaicg.dnsd.me
+    url: https://haicg.github.io
 
 #作者信息
 author:
-  link: http://lihaicg.dnsd.me/contact.html
+  link: https://haicg.github.io/contact.html
   img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
 
 #评论信息
